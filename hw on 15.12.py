@@ -37,7 +37,7 @@ def task2():
     Duration= float(Time)
     loan= float(Price)
     inter= float(Rate)
-    payments= loanDurationInYears* 12
+    payments= Duration* 12
     monthly= loan* inter* (1+ inter)* payments \
                     / ((1+ interestRate)* payments- 1)
     print("Ежемесячный платеж в рублях %.2f ₽" % monthly)
