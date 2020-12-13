@@ -32,7 +32,7 @@ def task2():
     payments= 0
     Duration= 0
     Price= input("Сумма займа/кредита: ")
-    Rate= input("Процентная ставка: ")
+    Rate= int(input("Процентная ставка: "))
     Time= input("Примерное время выплачивания(в годах): ")
     Duration= float(Time)
     loan= float(Price)
